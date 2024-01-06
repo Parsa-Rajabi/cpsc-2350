@@ -56,9 +56,9 @@ The Learning Outcomes for this course are:
 
 More details about the course can be found on [CPSC 2350 - Langara Academic Calendar](https://langara.ca/programs-and-courses/courses/CPSC/2350.html)
 
-## Required Materials
+## Textbook Materials
 
-There is no requirement to purchase textbooks or any other materials for this course.
+Software Engineering, Ian Sommerville, Addison Wesley, 2015, 9780133943030, 10th Edition
 
 ## Course Evaluation
 
@@ -69,6 +69,27 @@ TBA
 
 <!-- ![Grade Letters](../images/grade_letters.png) -->
 
+### Assignment/Project/Lab Policy
+
+- You may not send the instructor or the TAs draft assignments/project/labs for feedback – post all questions to Slack so that everyone can benefit from the answers
+- Assignments/labs/projects may be shared/shown in class and online (with no student name/ID)
+
+### Remarking Policy
+
+If you feel a course item has been significantly incorrectly assessed you may request a re-marking. However, before you do make such request, please follow the steps below:
+
+1. Review the marking rubric and ensure you understand the marking scheme.
+2. Review the marking comments and ensure you understand the feedback.
+3. Schedule a meeting with the TA/Marker to discuss the feedback and marking.
+4. If you still feel the marking is incorrect, you may request a re-marking.
+
+#### Request a Remarking
+
+Requests must include a written case for the re-marking and be submitted to the course instructor within 2 business days from receiving the mark.
+
+The item will be re-marked in their entirety by both the course instructor and the TA marker and may result in a higher, unchanged, or lower mark overall which will be final. You should exercise caution in submitting a remark request purely on the hope of getting a minor grade bump as this often does not work out the way a student hopes for.
+
+Each student may submit one remarking request for the term.
 
 ## Passing Criteria
 
