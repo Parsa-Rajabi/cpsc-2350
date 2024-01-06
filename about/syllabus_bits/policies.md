@@ -6,6 +6,12 @@ following policies**
 
 For information about COVID-19, please visit [Langara COVID-19 FAQ](https://langara.ca/news-and-events/covid-19/faqs/faqs-health.html).
 
+Based on the Order of the Provincial Health Officer, Langara has suggested a few guidelines for teaching activities. Here are some of the important ones:
+
+- Marks are no longer required and will be a personal choice. If you forget your mask and want one, disposable masks are available from Student Central in Burnaby and at the information desks in Vancouver and Surrey.
+- Stay home, get tested, and notify the instructor if you feel sick or are experiencing COVID-19-like symptoms -- we'll work it out.
+- Be respectful to others. People have different comfort levels and are going through things at their own pace. You never know what someone else is dealing with.
+
 ## Data Privacy
 
 This course may use an electronic (online) instructional resource that is located outside of Canada

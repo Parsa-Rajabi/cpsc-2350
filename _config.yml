@@ -67,7 +67,7 @@ sphinx:
       TITLE: "Software Practices"
       PREREQS: "A minimum B grade in CPSC 1030 and 1045."
       # COREQS: "N/A"
-      TERM: "2022 Spring"
+      TERM: "2024 Spring"
       ROOM: "A274"
       MEETING_TIMES: "Saturdays, 1:30-3:20 pm PST"
       GRACE_PERIOD: "48 hour"
