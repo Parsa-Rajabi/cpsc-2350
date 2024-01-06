@@ -1,0 +1,888 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Project &#8212; CPSC 2350</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/extra.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pdf_print.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom_layouts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "Parsa-Rajabi/cpsc-2350");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script src="_static/save_state.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'project';</script>
+    <link rel="canonical" href="https://parsa-rajabi.github.io/cpsc-2350-spring-2022/project.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Lecture Notes" href="lecture_notes.html" />
+    <link rel="prev" title="Assignments &amp; Check-in Quizzes" href="assignments_quizzes.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="about/welcome.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/langara-logo.png" class="logo__image only-light" alt="CPSC 2350 - Home"/>
+    <script>document.write(`<img src="_static/langara-logo.png" class="logo__image only-dark" alt="CPSC 2350 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="about/welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">About this course</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="about/syllabus.html">Course Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about/course_schedule.html">Course Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about/faq.html">Frequently Asked Questions</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course elements</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="assignments_quizzes.html">Assignments &amp; Check-in Quizzes</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Project</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Content</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="lecture_notes.html">Lecture Notes</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Feedback</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="about/feedback.html">Anonymous Feedback Form</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/project.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Project</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">About</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#planning">Planning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#out-of-scope">Out of Scope</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schedule">Schedule</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-marks">Individual Marks</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#group-marks">Group Marks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown">Breakdown</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus">Bonus</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#milestone-1-project-planning">Milestone 1 - Project Planning</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-in-1-february-5">Check-in #1 - February 5</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#report-and-presentation-1-february-19">Report and Presentation #1 - February 19</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#report-70-marks">Report (70 marks)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-30-marks-5-bonus">Presentation (30 marks +5 BONUS)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#milestone-2-project-execution">Milestone 2 - Project Execution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-in-2-march-19">Check-in #2 - March 19</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#report-and-presentation-2-april-2">Report and Presentation #2 - April 2</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Report (70 marks)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Presentation (30 marks +5 BONUS)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#application-evaluation-100-marks-10-bonus">Application Evaluation (100 marks +10 BONUS)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="project">
+<h1>Project<a class="headerlink" href="#project" title="Permalink to this heading">#</a></h1>
+<p>This project is one of the main components of this course (40% of your grade) which will be done in groups of 4.</p>
+<section id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Plan, develop and deliver an application that has 2 APIs integrated with a minimum of 3 features per each API (6 features total).</p></li>
+<li><p>Choose a Software Development Life Cycle (SDLC) model and apply the appropriate principles to your project.</p></li>
+<li><p>Set up and maintain a github repository while using github elements such as branching, pull requests, github project and issues</p></li>
+</ul>
+<section id="planning">
+<h3>Planning<a class="headerlink" href="#planning" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Create user stories</p></li>
+<li><p>Develop wireframes and prototype elements for the application interface</p></li>
+<li><p>Develop a work breakdown structure (WBS) of all the tasks associated with the project alongside a project schedule/timeline</p></li>
+<li><p>Use Data Flow Diagrams (DFDs) to outline how data flows within the application</p></li>
+</ul>
+</section>
+<section id="implementation">
+<h3>Implementation<a class="headerlink" href="#implementation" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Integrate chosen APIs into application with features</p></li>
+<li><p>Develop application interface based on wireframes/prototypes</p></li>
+<li><p>Write unit and integration code tests</p></li>
+<li><p>Set up and maintain a CI/CD infrastructure (test, build and deploy + accessible via a public URL)</p></li>
+</ul>
+</section>
+<section id="out-of-scope">
+<h3>Out of Scope<a class="headerlink" href="#out-of-scope" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>No back-end elements (ie. database) are required</p></li>
+</ul>
+</section>
+</section>
+<section id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://heap.io/topics/what-is-a-tech-stack">What is a tech stack?</a></p></li>
+<li><p><a class="reference external" href="https://www.ibm.com/cloud/learn/api">What is an API?</a></p></li>
+<li><p><a class="reference external" href="https://github.com/public-apis/public-apis">A collective list of free APIs for use in software and web development</a></p></li>
+<li><p><a class="reference external" href="https://hackr.io/blog/web-development-frameworks">Modern Web Application Frameworks</a> (no back-end is required for this project)</p></li>
+<li><p><a class="reference external" href="https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html">What is CI/CD?</a></p></li>
+</ul>
+</section>
+<section id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this heading">#</a></h2>
+<p>This project is broken down into 2 milestones:</p>
+<ul class="simple">
+<li><p>Milestone 1: Project Planning, Jan - Feb</p></li>
+<li><p>Milestone 2: Project Execution, March - April</p></li>
+</ul>
+<p>Each milestone will include the following:</p>
+<ul class="simple">
+<li><p>Project check-in with instructor</p></li>
+<li><p>Project report</p></li>
+<li><p>Project presentation</p></li>
+</ul>
+<section id="schedule">
+<h3>Schedule<a class="headerlink" href="#schedule" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Project Element</p></th>
+<th class="head text-center"><p>Due Date</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>Groups Assigned</p></td>
+<td class="text-center"><p>Jan. 22</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Check-in #1</p></td>
+<td class="text-center"><p>Feb. 5</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Project Report and Presentation #1</p></td>
+<td class="text-center"><p>Feb. 19</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Check-in #2</p></td>
+<td class="text-center"><p>Mar. 19</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Project Report and Presentation #2</p></td>
+<td class="text-center"><p>Apr. 2</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="grading">
+<h3>Grading<a class="headerlink" href="#grading" title="Permalink to this heading">#</a></h3>
+<p>This group project is designed to be done in a collaborative group. It’s every member’s responsibility to:</p>
+<ul class="simple">
+<li><p>communicate with other members on a regular basis</p></li>
+<li><p>attend all group meetings and be attentive</p></li>
+<li><p>be professional and respectful of others</p></li>
+<li><p>complete all their assigned work on time AND to the highest quality possible</p></li>
+<li><p>ask other members for help when needed</p></li>
+<li><p>create an inclusive environment for all members to feel safe and comfortable to share their opinion</p></li>
+</ul>
+<p>To ensure every group member is contributing to the project, the grading scheme is divided into 2 sections:</p>
+<ol class="arabic simple">
+<li><p>Individual marks (45%)</p></li>
+<li><p>Group marks (55%)</p></li>
+</ol>
+<section id="individual-marks">
+<h4>Individual Marks<a class="headerlink" href="#individual-marks" title="Permalink to this heading">#</a></h4>
+<p>After completing each report/presentation, all group members will have the opportunity to evaluate their peers. Each member will receive 3 evaluation grades from their peers and the <em>average</em> of the 3 evaluations will be used for individual peer evaluation grades (15% x2). Each group member will be responsible to submit an evaluation for their peers during evaluations #1 and #2 - the completion of these evaluations is worth (5%).  More details on where and how to submit peer evaluation will be shared later.</p>
+<p>Another key component of the individual grade includes contributions. Since this is a group project, it is expected that all members put in roughly the same amount of time and effort into the project with all tasks divided up equally. The individual contribution component will be marked based on the individual’s contributions to group meetings, check-ins, report, presentation and finally contribution to completing the actual application.</p>
+</section>
+</section>
+<section id="group-marks">
+<h3>Group Marks<a class="headerlink" href="#group-marks" title="Permalink to this heading">#</a></h3>
+<p>Refer to the milestones below for detailed grade breakdown for each report, presentation and application evaluation.</p>
+</section>
+<section id="breakdown">
+<h3>Breakdown<a class="headerlink" href="#breakdown" title="Permalink to this heading">#</a></h3>
+<p>This project accounts for 40% of every member’s grade in the course. The project grading is broken down into as the following:</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Project Element</p></th>
+<th class="head text-center"><p>Total %</p></th>
+<th class="head text-center"><p>Detailed %</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">Individual</span> <span class="pre">Marks</span></code></p></td>
+<td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">45%</span></code></p></td>
+<td class="text-center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Peer evaluation #1</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>15%</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Peer evaluation #2</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>15%</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Complete peer evalution</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>5%</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Individual contribution</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>10%</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">Group</span> <span class="pre">Marks</span></code></p></td>
+<td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">55%</span></code></p></td>
+<td class="text-center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Report #1</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>10%</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Presentation #1</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>5%</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Report #2</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>10%</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Presentation #2</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>5%</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Application evaluation</p></td>
+<td class="text-center"><p></p></td>
+<td class="text-center"><p>25%</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">Overall</span></code></p></td>
+<td class="text-center"><p><code class="docutils literal notranslate"><span class="pre">100%</span></code></p></td>
+<td class="text-center"><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bonus">
+<h3>Bonus<a class="headerlink" href="#bonus" title="Permalink to this heading">#</a></h3>
+<p>There are various opportunities for groups to receive bonus throughout the project. Please ensure you read the all details below and plan ahead. Note: the maximum grade for the project is 100%.</p>
+</section>
+</section>
+<section id="milestone-1-project-planning">
+<h2>Milestone 1 - Project Planning<a class="headerlink" href="#milestone-1-project-planning" title="Permalink to this heading">#</a></h2>
+<p>During the first 2 months of this course, your group will primarily work on planning the project:</p>
+<ul class="simple">
+<li><p>Setting up a communication tool i.e. Slack, discord etc.</p></li>
+<li><p>Making a group decision as to what APIs you will use for your project (at least 2 APIs)</p></li>
+<li><p>Creating a github repository with a README file describing your project</p></li>
+<li><p>Developing a work breakdown structure (WBS) of all the tasks associated with the project alongside a project schedule/timeline</p></li>
+<li><p>Setting up github project within the repository</p></li>
+<li><p>Writing tickets (Github Issues) based on the WBS and adding them to the github project</p></li>
+<li><p>Developing wireframes and prototypes elements for the project</p></li>
+<li><p>Developing a data flow diagram between the APIs and your application</p></li>
+</ul>
+<section id="check-in-1-february-5">
+<h3>Check-in #1 - February 5<a class="headerlink" href="#check-in-1-february-5" title="Permalink to this heading">#</a></h3>
+<p>During this check-in, your group will have the opportunity to meet with the instructor and receive feedback on all the elements completed thus far. Although there are no marks associated with this check-in, your group is expected to have the following elements completed and ready to discuss with the instructor:</p>
+<ul class="simple">
+<li><p>SDLC model chosen</p></li>
+<li><p>Technology stack that this project will be based on</p></li>
+<li><p>A list of 2 selected APIs that you wish to use as part of your project</p></li>
+<li><p>Github repository with a README file</p></li>
+<li><p>Completed WBS with detailed tasks</p></li>
+<li><p>An idea of the application interface will look like and how data will flow between each element</p></li>
+</ul>
+</section>
+<section id="report-and-presentation-1-february-19">
+<h3>Report and Presentation #1 - February 19<a class="headerlink" href="#report-and-presentation-1-february-19" title="Permalink to this heading">#</a></h3>
+<section id="report-70-marks">
+<h4>Report (70 marks)<a class="headerlink" href="#report-70-marks" title="Permalink to this heading">#</a></h4>
+<p>This document will include all the group’s progress thus far:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Overview of the project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[6</span> <span class="pre">marks]</span></code> Outline which SDLC model was chosen and why</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[4</span> <span class="pre">marks]</span></code> 2 User stories per each API (4 total, 1 mark each)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[4</span> <span class="pre">marks]</span></code> Outline your technology stack and why you chose it</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[4</span> <span class="pre">marks]</span></code> List of chosen APIs and why you chose them</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[8</span> <span class="pre">marks]</span></code> Planned features per each API (in detail - 3 features per each API, 6 features minimum)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[10</span> <span class="pre">marks]</span></code> Work breakdown structure (WBS) including how the work was divided up and who has completed what element (including the actual report and presentation components)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[8</span> <span class="pre">marks]</span></code> Project schedule/timeline</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[10</span> <span class="pre">marks]</span></code> Wireframes and prototype elements for the application interface</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[6</span> <span class="pre">marks]</span></code> 2 Data flow diagrams (1 high level/overview, 1 with details) (3 marks each)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Spelling, grammar, report structure (table of contents), cover page with links to github repository, report cleanliness</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This report should be written as if the person reading it (the instructor or marker) has no prior knowledge or experience with your project.</p>
+</div>
+</section>
+<section id="presentation-30-marks-5-bonus">
+<h4>Presentation (30 marks +5 BONUS)<a class="headerlink" href="#presentation-30-marks-5-bonus" title="Permalink to this heading">#</a></h4>
+<p>This 10 minute presentation will be done in-class as an opportunity for other students in the class to become familiar with your project. This presentation should include:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Overview of the project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Discuss which tech stack / APIs and SDLC model you picked and why</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Application features (high-level overview)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Wireframes and prototype elements for the application interface</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> 1 high level data flow diagram</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> All members of the group speak, presentation quality (spelling/grammar/professionalism/smoothness), ability to answer question and staying within allocated time (8 minutes presentation + 2 minutes question period)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[BONUS</span> <span class="pre">+5</span> <span class="pre">marks]</span></code> The best presentation voted by other students in the class will receive bonus marks added to their project grade at the end (Note: the max grade for the project is 100%)</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This presentation is directed towards your peers in the classroom who have no prior knowledge or experince with your project.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="milestone-2-project-execution">
+<h2>Milestone 2 - Project Execution<a class="headerlink" href="#milestone-2-project-execution" title="Permalink to this heading">#</a></h2>
+<p>During the last 2 months of this course, your group will shift to executing the project and developing the application planned during the first half of the course.</p>
+<section id="check-in-2-march-19">
+<h3>Check-in #2 - March 19<a class="headerlink" href="#check-in-2-march-19" title="Permalink to this heading">#</a></h3>
+<p>During this check-in, your group will have the opportunity to meet with the instructor and receive feedback on all the elements completed thus far. Although there are no marks associated with this check-in, your group is expected to have the following elements completed and ready to discuss with the instructor:</p>
+<ul class="simple">
+<li><p>CI/CD infrastructure fully implemented</p></li>
+<li><p>1 API fully implemented with 2-3 features</p></li>
+<li><p>Progress on application interface (UI)</p></li>
+<li><p>at least 1 unit + 1 integration code tests</p></li>
+</ul>
+</section>
+<section id="report-and-presentation-2-april-2">
+<h3>Report and Presentation #2 - April 2<a class="headerlink" href="#report-and-presentation-2-april-2" title="Permalink to this heading">#</a></h3>
+<section id="id1">
+<h4>Report (70 marks)<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h4>
+<p>This document will serve as the final project report:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[2</span> <span class="pre">marks]</span></code> Overview of the project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[7</span> <span class="pre">marks]</span></code> Overview of which SDLC model was used in the project and what worked/didn’t work</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[3</span> <span class="pre">marks]</span></code> High-level list of implemented features</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[18</span> <span class="pre">marks]</span></code> 3 application features per each API - 6 features in total (in detail with screenshots) (3 marks per feature)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[10</span> <span class="pre">marks]</span></code> Description of the tests associated with the code (unit and integration tests)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[10</span> <span class="pre">marks]</span></code> Description of the project’s CI/CD infrastructure (test, build and deploy)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> 1 high-level data flow diagram</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[10</span> <span class="pre">marks]</span></code> Lessons learnt / project takeaway, project challenges, how the work was divided up and who has completed what element (including the actual report and presentation components)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Spelling, grammar, report structure (table of contents), cover page with links to github repository, report cleanness</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Presentation (30 marks +5 BONUS)<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
+<p>This 10 minute presentation will be done in-class as an opportunity for other students in the class to become familiar with your project. This presentation should include:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[2</span> <span class="pre">marks]</span></code> Overview of the project</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[3</span> <span class="pre">marks]</span></code> Discuss which APIs you picked and why</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Application features (high-level overview)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Overview of CI/CD infrastructure</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Project takeaways and challenges</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> Project demo video (1-2 minutes)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[5</span> <span class="pre">marks]</span></code> All members of the group speak, presentation quality (spelling/grammar/professionalism/smoothness), ability to answer question and staying within allocated time (8 minutes presentation including demo video + 2 minutes question period)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[BONUS</span> <span class="pre">+5</span> <span class="pre">marks]</span></code> The best presentation voted by other students in the class will receive  bonus marks added to their project grade at the end (the max grade for the project is 100%)</p></li>
+</ul>
+</section>
+<section id="application-evaluation-100-marks-10-bonus">
+<h4>Application Evaluation (100 marks +10 BONUS)<a class="headerlink" href="#application-evaluation-100-marks-10-bonus" title="Permalink to this heading">#</a></h4>
+<p>The application developed as part of this project will be evaluated as the following</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">[48</span> <span class="pre">marks]</span></code> Implement 6 features based on 2 APIs (3 features per each API) (8 marks each)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[12</span> <span class="pre">marks]</span></code> Develop application interface including basic styling and framework</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[8</span> <span class="pre">marks]</span></code> Write 8 unit tests (1 mark each)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[12</span> <span class="pre">marks]</span></code> Write 1 integration test per each feature - 6 total (2 marks each)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[20</span> <span class="pre">marks]</span></code> Set up project with CI/CD infrastructure (including hosting - accessible via public URL).</p>
+<ul>
+<li><p>Test, build and deploy stages</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[BONUS</span> <span class="pre">+5</span> <span class="pre">marks]</span></code> The best project voted by other students in the class will receive bonus marks added to their project grade at the end (Note: the max grade for the project is 100%)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[BONUS</span> <span class="pre">+5</span> <span class="pre">marks]</span></code> Your group will receive bonus marks if you choose to implement the project using a modern web application framework such as React, Angular etc. (Note: the max grade for the project is 100%)</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "firasm/jupyterbook_course_template",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="assignments_quizzes.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Assignments &amp; Check-in Quizzes</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="lecture_notes.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Lecture Notes</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">About</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#planning">Planning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#out-of-scope">Out of Scope</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schedule">Schedule</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#individual-marks">Individual Marks</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#group-marks">Group Marks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#breakdown">Breakdown</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus">Bonus</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#milestone-1-project-planning">Milestone 1 - Project Planning</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-in-1-february-5">Check-in #1 - February 5</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#report-and-presentation-1-february-19">Report and Presentation #1 - February 19</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#report-70-marks">Report (70 marks)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation-30-marks-5-bonus">Presentation (30 marks +5 BONUS)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#milestone-2-project-execution">Milestone 2 - Project Execution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-in-2-march-19">Check-in #2 - March 19</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#report-and-presentation-2-april-2">Report and Presentation #2 - April 2</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Report (70 marks)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Presentation (30 marks +5 BONUS)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#application-evaluation-100-marks-10-bonus">Application Evaluation (100 marks +10 BONUS)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Parsa Rajabi
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png"></a>
+    All content on this site (unless otherwise specified) is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
