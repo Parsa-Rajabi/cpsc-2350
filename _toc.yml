@@ -1,0 +1,37 @@
+format: jb-book
+root: about/welcome
+parts:
+- caption: About this course
+  chapters:
+  - file: about/syllabus
+  - file: about/course_schedule
+  - file: about/accommodations
+  - file: about/doing_well
+  - file: about/faq
+- caption: Course elements
+  chapters:
+    - file: assignments_quizzes
+    - file: project
+- caption: Course Content
+  chapters:
+  - file: lecture_notes
+#    title: Week 1
+#    sections:
+#      - file: class/week1/readings
+#      - file: class/week1/videos
+#      - file: class/week1/homework
+#      - file: class/week1/lecture
+#      - file: class/week1/test
+#      - file: class/week1/lab
+#      - file: class/week1/learninglogs
+# - caption: Final Exam
+#   chapters:
+#   - file: class/final
+# - caption: Lab Materials
+#   chapters:
+#   - file: class/labs
+#     title: Lab Stuff
+- caption: Course Feedback
+  chapters:
+  - file: about/feedback
+    title: Anonymous Feedback Form
