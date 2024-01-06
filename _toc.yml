@@ -7,11 +7,11 @@ parts:
   - file: about/course_schedule
   - file: about/accommodations
   - file: about/doing_well
-  - file: about/faq
-- caption: Course elements
-  chapters:
-    - file: assignments_quizzes
-    - file: project
+  # - file: about/faq
+# - caption: Course elements
+  # chapters:
+    # - file: assignments_quizzes
+    # - file: project
 - caption: Course Content
   chapters:
   - file: lecture_notes

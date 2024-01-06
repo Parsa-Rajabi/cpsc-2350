@@ -5,7 +5,7 @@
 # Course Syllabus
 
 Below is the official Langara-mandated Course Syllabus for {{ COURSE_CODE }}.
-Elements of this document are **fixed** and unchanging.
+<!-- Elements of this document are **fixed** and unchanging. -->
 <!-- Additional details about the course are available on the {{ '[course website]({link})'.format(link=CANVAS_LINK.replace('CANVAS_ID',CANVAS_ID))}}. -->
 
 **{{ COURSE_CODE }} {{ SECTION }}**
@@ -17,12 +17,10 @@ Elements of this document are **fixed** and unchanging.
 **{{ MEETING_TIMES }}**
 
 **Mode of Delivery/Location:**  
-As [Langara's course schedule](http://swing.langara.bc.ca/prod/hzgkfcls.P_GetCrseBySubj?term=202210&subj=CPSC), this course is split into 2 lectures: 
-- 2 hour hybrid lecture in A274/Zoom
-- 2 hour online (asynchronous)
-- 2 hour hybrid lab section in A275/Zoom
-
-(Visit Brightspace for Zoom link)
+As [Langara's course schedule](https://swing.langara.bc.ca/prod/hzgkfcls.P_GetCrseBySubj?term=202410&subj=CPSC), this course is split into 2 lectures and a lab: 
+- 2 hour lecture in A274, Saturdays 1:30pm - 3:20pm PST
+- 2 hour online (asynchronous), No specific time
+- 2 hour lab section in A275, Saturdays 3:30pm - 5:20pm PST
 
 ---
 ## Course Instructor
@@ -30,11 +28,11 @@ As [Langara's course schedule](http://swing.langara.bc.ca/prod/hzgkfcls.P_GetCrs
 **Name:** {{ INSTRUCTOR }}
 
 **Email:** prajabi `[at]` langara.ca (replace `[at]` with `@`)
-Note: When emailing, please put “CPSC 2350” at the start of your subject line.
+Note: When emailing, please put “CPSC 2350” at the start of your subject line. Failure to do so may result in your email being missed.
 
-**Slack:** @parsa
+**Office Hours:** TBA
 
-**Office Hours:** 12:30 - 13:30pm on Saturdays - [Book a session](https://calendly.com/parsa-rajabi/cpsc-2350-office-hour) beforehand 
+<!-- 12:30 - 13:30pm on Saturdays - [Book a session](https://calendly.com/parsa-rajabi/cpsc-2350-office-hour) beforehand  -->
 
 <!-- **Phone:** {{ PHONE }} -->
 
@@ -65,10 +63,12 @@ There is no requirement to purchase textbooks or any other materials for this co
 
 ## Course Evaluation
 
-```{include} syllabus_bits/grading_practices_detailed.md
-```
+TBA
 
-![Grade Letters](../images/grade_letters.png)
+<!-- ```{include} syllabus_bits/grading_practices_detailed.md
+``` -->
+
+<!-- ![Grade Letters](../images/grade_letters.png) -->
 
 
 ## Passing Criteria
@@ -78,13 +78,17 @@ There is no requirement to purchase textbooks or any other materials for this co
 
 ## Late Policy and Missed Assignments/Exams
 
-Assignments can be submitted up to 48 hours after the due date with 10% late penalty for every 24 hours. No submissions will be accepted after 48 hours. 
-Missed project deadlines (reports, presentations, etc.), quizzes and exams will be given a score of 0 unless prior arrangements are made with the course instructor.
+TBA
 
-## Tentative Course Schedule
+<!-- Assignments can be submitted up to 48 hours after the due date with 10% late penalty for every 24 hours. No submissions will be accepted after 48 hours. 
+Missed project deadlines (reports, presentations, etc.), quizzes and exams will be given a score of 0 unless prior arrangements are made with the course instructor. -->
+
+<!-- ## Tentative Course Schedule
 
 ```{include} syllabus_bits/schedule_topics.md
-```
+``` -->
+
+## Course Policies
 
 ```{include} syllabus_bits/policies.md
 ```

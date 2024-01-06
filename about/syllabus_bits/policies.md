@@ -33,6 +33,7 @@ If you have any questions about how academic integrity applies to this course, p
 ## Student Code of Conduct
 
 [E1003 - Langara Student Code of Conduct](https://langara.ca/about-langara/policies/pdf/E1003.pdf)
+
 ## Academic Standing, Probation and Suspension
 
 [E2008 - Langara Academic Standing - Academic Probation and Academic Suspension](https://langara.ca/about-langara/policies/pdf/E2008-june-2012.pdf)
@@ -50,17 +51,26 @@ Marks on assignments and exams are based on merit and the quality of a student�
 ## Withdraw from Courses and Deferred Standing
 
 [E2011 - Withdrawal from Courses and Deferred Standing](https://langara.ca/about-langara/policies/pdf/E2011.pdf)
+
 ## Departmental Policies
 From (https://langara.ca/programs-and-courses/courses/CPSC/), as of January 1st, 2022.
+
 ### Prerequisites
+
 Prerequisites for courses in Computer Science are valid for only three years. Students wanting to register in a course for which the prerequisite was taken more than three years ago will require departmental permission. Students may be required to write a diagnostic test or to “upgrade” the prerequisite. A course may only be used as a prerequisite if the Computer Science grade is at least "C".
+
 #### Repeating a course
+
 A Computer Science course may be taken only twice, regardless of the grade earned in the first enrolment. The Department Chair, or delegate, will decide on exceptions to this rule, usually on the basis of documented evidence of upgraded prerequisites.
 
 Students with a substantial background in computer programming may be exempted from CPSC 1050 and/or 1150. See a faculty advisor for further information.
+
 ### Attendance
+
 Students will receive a failing mark if they miss 20% of the course components including lectures, seminars, and labs, unless there is verifiable evidence of an acceptable excuse.
+
 ### Grading
+
 1. In order to get a "C" or higher grade in a Computer Science course, a student must achieve at least 50% average in the exam components of the course.
 2. In courses which involve programming, students are required to hand in an attempt at solving every assignment in order to pass a course. In addition, students are required to obtain a satisfactory programming mark.
 
