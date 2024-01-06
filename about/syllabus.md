@@ -6,7 +6,6 @@
 
 Below is the official Langara-mandated Course Syllabus for {{ COURSE_CODE }}.
 <!-- Elements of this document are **fixed** and unchanging. -->
-<!-- Additional details about the course are available on the {{ '[course website]({link})'.format(link=CANVAS_LINK.replace('CANVAS_ID',CANVAS_ID))}}. -->
 
 **{{ COURSE_CODE }} {{ SECTION }}**
 
