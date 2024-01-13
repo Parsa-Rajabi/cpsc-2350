@@ -4,7 +4,7 @@ parts:
 - caption: About this course
   chapters:
   - file: about/syllabus
-  - file: about/course_schedule
+  # - file: about/course_schedule
   - file: about/accommodations
   - file: about/doing_well
   # - file: about/faq
@@ -15,6 +15,7 @@ parts:
 - caption: Course Content
   chapters:
   - file: lecture_notes
+  - file: assignment-lab-details
 #    title: Week 1
 #    sections:
 #      - file: class/week1/readings
