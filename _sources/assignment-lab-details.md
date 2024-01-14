@@ -10,7 +10,10 @@ Once you click the link, a repository will automatically be created for you with
 
 | Assignment | Due Date |                         Link to Accept                         |
 | :--------: | :------: | :------------------------------------------------------------: |
-|     A0     | Jan 17 | [Accept A0 on Github](https://classroom.github.com/a/SllniK6S) |
+|     A0     | Jan 21 | [Accept A0 on Github](https://classroom.github.com/a/SllniK6S) |
+|     A1     | Jan 21 | [Accept A0 on Github](https://classroom.github.com/a/Zsbs-MYL) |
+
+
 
 ## Labs
 
