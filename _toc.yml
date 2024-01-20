@@ -7,7 +7,7 @@ parts:
   # - file: about/course_schedule
   - file: about/accommodations
   - file: about/doing_well
-  # - file: about/faq
+  - file: ai-policy
 # - caption: Course elements
   # chapters:
     # - file: assignments_quizzes
