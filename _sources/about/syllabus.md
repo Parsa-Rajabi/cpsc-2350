@@ -62,10 +62,8 @@ Software Engineering, Ian Sommerville, Addison Wesley, 2015, 9780133943030, 10th
 
 ## Course Evaluation
 
-TBA
-
-<!-- ```{include} syllabus_bits/grading_practices_detailed.md
-``` -->
+```{include} syllabus_bits/grading_practices_detailed.md
+```
 
 <!-- ![Grade Letters](../images/grade_letters.png) -->
 
@@ -98,10 +96,11 @@ Each student may submit one remarking request for the term.
 
 ## Late Policy and Missed Assignments/Exams
 
-TBA
+All course elements (including but not limited to) assignments, labs and in-class activities, midterm, quizzes and projects are required to be submitted or completed by the specified due dates. Inability to adhere to these deadlines will lead to a score of zero. 
 
-<!-- Assignments can be submitted up to 48 hours after the due date with 10% late penalty for every 24 hours. No submissions will be accepted after 48 hours. 
-Missed project deadlines (reports, presentations, etc.), quizzes and exams will be given a score of 0 unless prior arrangements are made with the course instructor. -->
+Not submitting an assignment/lab/project github link on D2L Brightspace (even if it was submitted to github on time) will result in a 25% penalty. 
+
+Exceptional situations are considered on an individual basis, subject to the approval of the instructor and supported by legitimate documentation.
 
 <!-- ## Tentative Course Schedule
 

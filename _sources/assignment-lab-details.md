@@ -25,7 +25,7 @@ Once you click the link, a repository will automatically be created for you with
 
 ## Submission
 
-<!-- ### AI Usage Disclosure
+### AI Usage Disclosure
 
 After you completed a class homework (e.g. lab/assignment/project milestone), make sure to submit the AI declaration form via MS Form and also upload a PDF copy of your responses to the homework repository and include the link to PDF in your README file. 
 
@@ -58,9 +58,9 @@ Option B:
 [Link text](link to file)
 ```
 
-***Note, you must submit this form regardless if you use AI or not. Failure to submit this form will be considered a violation of AI course policy. More details about the AI-usage course policy can be found [here](https://parsa-rajabi.github.io/cmpt-276/#/ai-policy).***
+***Note, you must submit this form regardless if you use AI or not. Failure to submit this form will be considered a violation of AI course policy. More details about the AI-usage course policy can be found [here](https://parsa-rajabi.github.io/cpsc-2350/ai-policy).***
 
-[Link to AI Usage Disclosure MS Form](http://bit.ly/276-AI)
+[Link to AI Usage Disclosure MS Form](https://forms.office.com/r/N8hQ3X9s5p)
 
 Name the file in the following format: 
 
@@ -76,7 +76,7 @@ Examples:
 
 
 
-### Canvas
+<!-- ### Canvas
 
 All course content include assignments, labs etc. will need to be submitted on Canvas via the [assignment tab](https://canvas.sfu.ca/courses/79650/assignments). Not submitting on Canvas will be considered as a missed assignment/lab, which will result in a 0 grade for that assignment/lab. Follow the instructions below to understand how to use GitHub classroom. -->
 
