@@ -6,6 +6,12 @@
 | :---------: | :-----------: | :---------------------------: |
 |    v1.0     | Jan. 20, 2023 | Initial version of the policy |
 
+### AI Usage Disclosure
+
+[Link to AI Usage Disclosure MS Form](https://forms.office.com/r/N8hQ3X9s5p)
+
+Follow the instructions outlined on [assignment and lab details](https://parsa-rajabi.github.io/cpsc-2350/assignments-labs-details) page to submit your AI Usage Disclsure on github.
+
 ## Policy on the Use of AI Content Generators for the Coursework.
 
 As Chat Generative Pre-trained Transformer (ChatGPT) gains traction, its impact on post-secondary education is increasingly being debated. Some argue that it will make education more accessible, while others worry about its potential to replace human teachers. In this course policy, I will outline how we will tackle this challenge in CPSC 2350 - Software Practices. Please note that this policy only applies to CPSC 2350, section M01 (Spring 2024).
