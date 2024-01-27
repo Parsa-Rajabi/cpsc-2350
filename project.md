@@ -119,13 +119,13 @@ Between the milestones, each team will be required to do a check-in with their a
 
 ### Schedule
 
-|             Project Element              | Due Date (11:59pm) |
-| :--------------------------------------: | :----------------: |
-| Project Report and Video Presentation #1 |                    |
-|             Project Check-in             |                    |
-|          Presentation #2 Slides          |                    |
-|         In-class Presentation #2         |                    |
-|            Project Report #2             |                    |
+|           Project Element           | Due Date (11:59pm) |
+| :---------------------------------: | :----------------: |
+| Project Report and Presentation #1 |                    |
+|          Project Check-in           |                    |
+|       Presentation #2 Slides        |                    |
+|      In-class Presentation #2       |                    |
+|          Project Report #2          |                    |
 
 ### Group Project Expectations
 
