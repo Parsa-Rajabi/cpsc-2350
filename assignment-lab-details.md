@@ -78,7 +78,12 @@ Examples:
 - Project Milestone 1: `P1_AI_Declaration_Parsa_Rajabi_301234567.pdf`
 
 
+### Penalties
 
+- Failing to submit the PDF version of AI declaration form to github will result in a -25% penalty for that assignment/lab/project milestone.
+- Failing to adhering to the naming convention for the PDF file will result in a -5% penalty for that assignment/lab/project milestone.
+- Failure to submit the AI declaration form will be considered a violation of AI course policy. More details about the AI-usage course policy can be found [here](https://parsa-rajabi.github.io/cpsc-2350/ai-policy).
+  
 <!-- ### Canvas
 
 All course content include assignments, labs etc. will need to be submitted on Canvas via the [assignment tab](https://canvas.sfu.ca/courses/79650/assignments). Not submitting on Canvas will be considered as a missed assignment/lab, which will result in a 0 grade for that assignment/lab. Follow the instructions below to understand how to use GitHub classroom. -->

@@ -2,9 +2,10 @@
 
 ### Changelog
 
-| **Version** |   **Date**    |          **Changes**          |
-| :---------: | :-----------: | :---------------------------: |
-|    v1.0     | Jan. 20, 2023 | Initial version of the policy |
+| **Version** |   **Date**    |            **Changes**             |
+| :---------: | :-----------: | :--------------------------------: |
+|    v1.0     | Jan. 20, 2024 |   Initial version of the policy    |
+|    v1.1     | Jan. 27, 2024 | Added penalties, more details [here](https://parsa-rajabi.github.io/cpsc-2350/assignments-labs-details#penalties) |
 
 ### AI Usage Disclosure
 
