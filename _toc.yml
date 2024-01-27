@@ -16,7 +16,6 @@ parts:
   chapters:
   - file: lecture_notes
   - file: assignment-lab-details
-- caption: Final Project
   - file: project
   - file: resources
 #    title: Week 1
