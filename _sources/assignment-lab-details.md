@@ -12,7 +12,7 @@ Once you click the link, a repository will automatically be created for you with
 | :--------: | :------: | :------------------------------------------------------------: |
 |     A0     |  Jan 21  | [Accept A0 on Github](https://classroom.github.com/a/SllniK6S) |
 |     A1     |  Jan 21  | [Accept A1 on Github](https://classroom.github.com/a/Zsbs-MYL) |
-|     A2     |  Feb 11  | [Accept A2 on Github](https://classroom.github.com/a/WZpAEH_S) |
+|     A2     |  Feb 11  | [Accept A2 on Github](https://classroom.github.com/a/Xn4WqJLp) |
 |     A3     |          |                                                                |
 
 
