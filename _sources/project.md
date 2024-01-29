@@ -115,7 +115,7 @@ Each milestone will include the following:
 - Project report
 - Project presentation
 
-Between the milestones, each team will be required to do a check-in with their assigned TA to ensure the project is on track.
+Between the milestones, each team will be required to do a check-in with the instructor to ensure the project is on track.
 
 ### Schedule
 

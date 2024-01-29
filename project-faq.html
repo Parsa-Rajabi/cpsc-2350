@@ -1,0 +1,696 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Project FAQ &#8212; CPSC 2350</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom_layouts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pdf_print.css" />
+    <link rel="stylesheet" type="text/css" href="_static/extra.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "Parsa-Rajabi/cpsc-2350");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script src="_static/save_state.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'project-faq';</script>
+    <link rel="canonical" href="https://parsa-rajabi.github.io/cpsc-2350/project-faq.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Resources" href="resources.html" />
+    <link rel="prev" title="Project Details" href="project.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="about/welcome.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/langara-logo.png" class="logo__image only-light" alt="CPSC 2350 - Home"/>
+    <script>document.write(`<img src="_static/langara-logo.png" class="logo__image only-dark" alt="CPSC 2350 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="about/welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">About this course</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="about/syllabus.html">Course Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ai-policy.html">AI-usage Course Policy</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Content</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="lecture_notes.html">Lecture Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assignment-lab-details.html">Assignments &amp; Labs</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Final Project</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="project.html">Project Details</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Project FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Feedback</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="about/feedback.html">Anonymous Feedback Form</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/project-faq.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Project FAQ</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-questions">General Questions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-the-main-objective-of-this-project">What is the main objective of this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-much-does-this-project-contribute-to-our-course-grade">How much does this project contribute to our course grade?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-requirements">Project Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-team-requirements-for-this-project">What are the team requirements for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-apis-are-required-to-be-integrated-into-the-application">How many APIs are required to be integrated into the application?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-constitutes-a-feature-in-this-project">What constitutes a “feature” in this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-recommendations-for-choosing-apis">Are there recommendations for choosing APIs?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-aspects">Technical Aspects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-technologies-can-we-use-for-the-project">What technologies can we use for the project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-bonus-component-in-this-project">Is there a bonus component in this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#planning-and-execution">Planning and Execution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-key-planning-activities-for-this-project">What are the key planning activities for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-does-the-implementation-phase-involve">What does the implementation phase involve?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-any-out-of-scope-elements-for-this-project">Are there any out-of-scope elements for this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grading-and-evaluation">Grading and Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-the-project-graded">How is the project graded?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-group-project-expectations">What are the group project expectations?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-policy-for-non-participation">Is there a policy for non-participation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-milestones-for-this-project">What are the milestones for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-the-project-work-be-divided-among-team-members">How should the project work be divided among team members?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-expected-deliverables-for-each-milestone">What are the expected deliverables for each milestone?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-will-individual-contributions-be-assessed">How will individual contributions be assessed?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-criteria-for-the-peer-evaluation">What are the criteria for the peer evaluation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">What are the milestones for this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional Information</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-can-we-find-more-resources-for-this-project">Where can we find more resources for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-can-we-resolve-conflicts-within-our-team">How can we resolve conflicts within our team?</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="project-faq">
+<h1>Project FAQ<a class="headerlink" href="#project-faq" title="Permalink to this heading">#</a></h1>
+<section id="general-questions">
+<h2>General Questions<a class="headerlink" href="#general-questions" title="Permalink to this heading">#</a></h2>
+<section id="what-is-the-main-objective-of-this-project">
+<h3>What is the main objective of this project?<a class="headerlink" href="#what-is-the-main-objective-of-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Objective and Overview</span></p>
+</section>
+<section id="how-much-does-this-project-contribute-to-our-course-grade">
+<h3>How much does this project contribute to our course grade?<a class="headerlink" href="#how-much-does-this-project-contribute-to-our-course-grade" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Project Weight</span></p>
+</section>
+</section>
+<section id="project-requirements">
+<h2>Project Requirements<a class="headerlink" href="#project-requirements" title="Permalink to this heading">#</a></h2>
+<section id="what-are-the-team-requirements-for-this-project">
+<h3>What are the team requirements for this project?<a class="headerlink" href="#what-are-the-team-requirements-for-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Team Composition</span></p>
+</section>
+<section id="how-many-apis-are-required-to-be-integrated-into-the-application">
+<h3>How many APIs are required to be integrated into the application?<a class="headerlink" href="#how-many-apis-are-required-to-be-integrated-into-the-application" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">API Integration Requirements</span></p>
+</section>
+<section id="what-constitutes-a-feature-in-this-project">
+<h3>What constitutes a “feature” in this project?<a class="headerlink" href="#what-constitutes-a-feature-in-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Feature Definition</span></p>
+</section>
+<section id="are-there-recommendations-for-choosing-apis">
+<h3>Are there recommendations for choosing APIs?<a class="headerlink" href="#are-there-recommendations-for-choosing-apis" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">API Selection Recommendations</span></p>
+</section>
+</section>
+<section id="technical-aspects">
+<h2>Technical Aspects<a class="headerlink" href="#technical-aspects" title="Permalink to this heading">#</a></h2>
+<section id="what-technologies-can-we-use-for-the-project">
+<h3>What technologies can we use for the project?<a class="headerlink" href="#what-technologies-can-we-use-for-the-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Technical Requirements</span></p>
+</section>
+<section id="is-there-a-bonus-component-in-this-project">
+<h3>Is there a bonus component in this project?<a class="headerlink" href="#is-there-a-bonus-component-in-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Bonus Component</span></p>
+</section>
+</section>
+<section id="planning-and-execution">
+<h2>Planning and Execution<a class="headerlink" href="#planning-and-execution" title="Permalink to this heading">#</a></h2>
+<section id="what-are-the-key-planning-activities-for-this-project">
+<h3>What are the key planning activities for this project?<a class="headerlink" href="#what-are-the-key-planning-activities-for-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Planning Activities</span></p>
+</section>
+<section id="what-does-the-implementation-phase-involve">
+<h3>What does the implementation phase involve?<a class="headerlink" href="#what-does-the-implementation-phase-involve" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Implementation Phase</span></p>
+</section>
+<section id="are-there-any-out-of-scope-elements-for-this-project">
+<h3>Are there any out-of-scope elements for this project?<a class="headerlink" href="#are-there-any-out-of-scope-elements-for-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Out of Scope Elements</span></p>
+</section>
+</section>
+<section id="grading-and-evaluation">
+<h2>Grading and Evaluation<a class="headerlink" href="#grading-and-evaluation" title="Permalink to this heading">#</a></h2>
+<section id="how-is-the-project-graded">
+<h3>How is the project graded?<a class="headerlink" href="#how-is-the-project-graded" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Grading Scheme</span></p>
+</section>
+<section id="what-are-the-group-project-expectations">
+<h3>What are the group project expectations?<a class="headerlink" href="#what-are-the-group-project-expectations" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Group Project Expectations</span></p>
+</section>
+<section id="is-there-a-policy-for-non-participation">
+<h3>Is there a policy for non-participation?<a class="headerlink" href="#is-there-a-policy-for-non-participation" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Non-participation Policy</span></p>
+</section>
+<section id="what-are-the-milestones-for-this-project">
+<h3>What are the milestones for this project?<a class="headerlink" href="#what-are-the-milestones-for-this-project" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Project Milestones</span></p>
+<p>For further details, refer to the project documentation or contact the course instructors.</p>
+</section>
+<section id="how-should-the-project-work-be-divided-among-team-members">
+<h3>How should the project work be divided among team members?<a class="headerlink" href="#how-should-the-project-work-be-divided-among-team-members" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Work Division</span></p>
+</section>
+<section id="what-are-the-expected-deliverables-for-each-milestone">
+<h3>What are the expected deliverables for each milestone?<a class="headerlink" href="#what-are-the-expected-deliverables-for-each-milestone" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Milestone Deliverables</span></p>
+</section>
+<section id="how-will-individual-contributions-be-assessed">
+<h3>How will individual contributions be assessed?<a class="headerlink" href="#how-will-individual-contributions-be-assessed" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Individual Contribution Assessment</span></p>
+</section>
+<section id="what-are-the-criteria-for-the-peer-evaluation">
+<h3>What are the criteria for the peer evaluation?<a class="headerlink" href="#what-are-the-criteria-for-the-peer-evaluation" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Peer Evaluation Criteria</span></p>
+</section>
+<section id="id1">
+<h3>What are the milestones for this project?<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p><span class="xref myst">Project Milestones</span></p>
+</section>
+</section>
+<section id="additional-information">
+<h2>Additional Information<a class="headerlink" href="#additional-information" title="Permalink to this heading">#</a></h2>
+<section id="where-can-we-find-more-resources-for-this-project">
+<h3>Where can we find more resources for this project?<a class="headerlink" href="#where-can-we-find-more-resources-for-this-project" title="Permalink to this heading">#</a></h3>
+<p>For a comprehensive list of resources, including tutorials, textbooks, and guides on various aspects of web development and project management, visit the <a class="reference internal" href="resources.html"><span class="doc std std-doc">Resources Page</span></a>.</p>
+</section>
+<section id="how-can-we-resolve-conflicts-within-our-team">
+<h3>How can we resolve conflicts within our team?<a class="headerlink" href="#how-can-we-resolve-conflicts-within-our-team" title="Permalink to this heading">#</a></h3>
+<p>For guidance on conflict resolution and maintaining effective team dynamics, please refer to the <span class="xref myst">Team Communication and Conflict Resolution</span> section.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "firasm/jupyterbook_course_template",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="project.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Project Details</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="resources.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Resources</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-questions">General Questions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-the-main-objective-of-this-project">What is the main objective of this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-much-does-this-project-contribute-to-our-course-grade">How much does this project contribute to our course grade?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-requirements">Project Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-team-requirements-for-this-project">What are the team requirements for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-apis-are-required-to-be-integrated-into-the-application">How many APIs are required to be integrated into the application?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-constitutes-a-feature-in-this-project">What constitutes a “feature” in this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-recommendations-for-choosing-apis">Are there recommendations for choosing APIs?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-aspects">Technical Aspects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-technologies-can-we-use-for-the-project">What technologies can we use for the project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-bonus-component-in-this-project">Is there a bonus component in this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#planning-and-execution">Planning and Execution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-key-planning-activities-for-this-project">What are the key planning activities for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-does-the-implementation-phase-involve">What does the implementation phase involve?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-any-out-of-scope-elements-for-this-project">Are there any out-of-scope elements for this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grading-and-evaluation">Grading and Evaluation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-the-project-graded">How is the project graded?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-group-project-expectations">What are the group project expectations?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-policy-for-non-participation">Is there a policy for non-participation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-milestones-for-this-project">What are the milestones for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-the-project-work-be-divided-among-team-members">How should the project work be divided among team members?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-expected-deliverables-for-each-milestone">What are the expected deliverables for each milestone?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-will-individual-contributions-be-assessed">How will individual contributions be assessed?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-criteria-for-the-peer-evaluation">What are the criteria for the peer evaluation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">What are the milestones for this project?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional Information</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-can-we-find-more-resources-for-this-project">Where can we find more resources for this project?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-can-we-resolve-conflicts-within-our-team">How can we resolve conflicts within our team?</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Parsa Rajabi
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png"></a>
+    All content on this site (unless otherwise specified) is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 license</a>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
