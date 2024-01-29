@@ -20,7 +20,7 @@
 [Feature Definition](https://parsa-rajabi.github.io/cpsc-2350/project#about)
 
 ### Are there recommendations for choosing APIs?
-[API Selection Recommendations](https://parsa-rajabi.github.io/cpsc-2350/project#about)
+[API Selection Recommendations](https://github.com/public-apis/public-apis)
 
 ## Technical Aspects
 
