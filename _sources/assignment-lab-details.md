@@ -30,6 +30,8 @@ Once you click the link, a repository will automatically be created for you with
 
 ### AI Usage Disclosure
 
+#### [Link to AI Usage Disclosure MS Form](https://forms.office.com/r/N8hQ3X9s5p)
+
 After you completed a class homework (e.g. lab/assignment/project milestone), make sure to submit the AI declaration form via MS Form and also upload a PDF copy of your responses to the homework repository and include the link to PDF in your README file. 
 
 Instructions on how to download a PDF file of your MS Form submissions:
@@ -62,8 +64,6 @@ Option B:
 ```
 
 ***Note, you must submit this form regardless if you use AI or not. Failure to submit this form will be considered a violation of AI course policy. More details about the AI-usage course policy can be found [here](https://parsa-rajabi.github.io/cpsc-2350/ai-policy).***
-
-[Link to AI Usage Disclosure MS Form](https://forms.office.com/r/N8hQ3X9s5p)
 
 Name the file in the following format: 
 
@@ -105,7 +105,7 @@ Here are some instructions on how to start working on assignments/labs that are 
   - You can commit changes to your repository **as many times as you like before the deadline** (any commits after the deadline will be ignored)
 - Step 7: Pushing the changes above
   - `git push`
-- Step 8: Copy your repository link and submit the link to [Canvas assignment](https://canvas.sfu.ca/courses/79650/assignments). After the deadline, we will begin marking submitted assignments.
+- Step 8: Copy your repository link and submit the link to D2L Brightspace. After the deadline, we will begin marking submitted assignments.
   - The link will look something like this: `https://github.com/cpsc-2350-spring-2024/cpsc-2350-assignment-#-[YOUR GITHUB USERNAME]` for example, for A1, it will be `https://github.com/cpsc-2350-spring-2024/cpsc-2350-assignment-1-Parsa-Rajabi`
 
 ### Working with Git

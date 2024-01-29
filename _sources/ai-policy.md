@@ -5,7 +5,7 @@
 | **Version** |   **Date**    |            **Changes**             |
 | :---------: | :-----------: | :--------------------------------: |
 |    v1.0     | Jan. 20, 2024 |   Initial version of the policy    |
-|    v1.1     | Jan. 27, 2024 | Added penalties, more details [here](https://parsa-rajabi.github.io/cpsc-2350/assignments-labs-details#penalties) |
+|    v1.1     | Jan. 27, 2024 | Added penalties, more details [here](https://parsa-rajabi.github.io/cpsc-2350/assignment-lab-details.html#penalties) |
 
 ### AI Usage Disclosure
 
@@ -37,7 +37,7 @@ Lastly, be aware of the dangers of becoming overly dependent on these tools. Whi
 
 ## For every assignment submission, you are required to complete a form called the "AI use disclosure." 
 
-Submitting this disclosure will help us understand and mitigate the risks associated with the use of AI tools in the course. The form will ask about your use of AI tools for the assignment and the extent to which you used them. You will be asked to submit the disclosure via Canvas.
+Submitting this disclosure will help us understand and mitigate the risks associated with the use of AI tools in the course. The form will ask about your use of AI tools for the assignment and the extent to which you used them. You will be asked to submit the disclosure via MS Form.
 
 ## If you do not wish to use these tools, that is a valid decision.
 
