@@ -225,42 +225,42 @@ This project accounts for 30% of every member's grade in the course. The project
 During the first half of the project, your group will primarily work on planning the project:
 
 ### 1. Communication:
-- [ ] Set up a primary communication tool (e.g., Slack, Discord).
-- [ ] Establish communication guidelines and check-in schedules.
+- Set up a primary communication tool (e.g., Slack, Discord).
+- Establish communication guidelines and check-in schedules.
 
 ### 2. Decision Making:
-- [ ] Determine at least two APIs for the project.
-- [ ] Evaluate and select the primary development frameworks or platforms.
+- Determine at least two APIs for the project.
+- Evaluate and select the primary development frameworks or platforms.
 
 ### 3. Repository Management:
-- [ ] Set up a GitHub repository.
-- [ ] Draft a README file detailing project objectives, tech stack, contributors, and setup instructions.
-- [ ] Ensure regular commits and proper branch management.
+- Set up a GitHub repository.
+- Draft a README file detailing project objectives, tech stack, contributors, and setup instructions.
+- Ensure regular commits and proper branch management.
 
 ### 4. Project Planning:
 
 #### a. Work Breakdown:
-- [ ] Construct a Work Breakdown Structure (WBS) with all tasks.
-- [ ] Prioritize tasks based on dependencies and importance.
+- Construct a Work Breakdown Structure (WBS) with all tasks.
+- Prioritize tasks based on dependencies and importance.
 
 #### b. Scheduling:
-- [ ] Design a detailed project timeline.
-- [ ] Schedule regular team meetings and update sessions.
+- Design a detailed project timeline.
+- Schedule regular team meetings and update sessions.
 
 #### c. GitHub Management:
-- [ ] Initiate a GitHub project within the repository.
-- [ ] Write tickets (GitHub Issues) based on the WBS.
-- [ ] Link issues to corresponding milestones and project boards.
+- Initiate a GitHub project within the repository.
+- Write tickets (GitHub Issues) based on the WBS.
+- Link issues to corresponding milestones and project boards.
 
 ### 5. Design Phase:
 
 #### a. Interface Design:
-- [ ] Create wireframes for all primary user interfaces.
-- [ ] Develop prototypes for application flows.
+- Create wireframes for all primary user interfaces.
+- Develop prototypes for application flows.
 
 #### b. Architecture Design:
-- [ ] Develop a data flow diagram detailing interactions between APIs and the application.
-- [ ] Draft architectural diagrams showcasing the project's features.
+- Develop a data flow diagram detailing interactions between APIs and the application.
+- Draft architectural diagrams showcasing the project's features.
 
 ### Report and Presentation #1 
 
