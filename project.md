@@ -277,19 +277,19 @@ This document will include all the group's progress thus far:
 - `[10 marks]` Work breakdown structure (WBS) including how the work was divided up and who has completed what element (including the actual report and presentation components)
 - `[8 marks]` Project schedule/timeline
 - `[10 marks]` Wireframes and prototype elements for the application interface
-- `[6 marks]` 2 Data flow diagrams (1 high level/overview, 1 with details) (3 marks each)
+- `[6 marks]` 2 Data flow diagrams (high level/overview - Level 0, another with details - Level 1) (3 marks each)
 - `[5 marks]` Spelling, grammar, report structure (table of contents), cover page with links to github repository, report cleanliness
 
 Tip: This report should be written as if the person reading it (the instructor or marker) has no prior knowledge or experience with your project. 
 
 #### Presentation (30 marks)
-Your presentation should include:
+As part of this milestone, your group will present a 5 minute video presentation that will be shared with the class. Your video presentation should include the following: 
 
 - `[5 marks]` Overview of the project 
 - `[5 marks]` Discuss which tech stack / APIs and SDLC model you picked and why
 - `[5 marks]` Application features (high-level overview)
 - `[5 marks]` Wireframes and prototype elements for the application interface
-- `[5 marks]` 1 high level data flow diagram 
+- `[5 marks]` 1 high level data flow diagram (Level 0)
 - `[5 marks]` All members of the group speak, presentation quality (spelling/grammar/professionalism/smoothness) and ease of understanding
 - `[-5 marks]` Penalty for going over the allocated presenation time limit
 
