@@ -3,6 +3,8 @@
 ```{warning}
 All lecture slides are password protected. Visit D2L Brightspace to get the password.
 ```
+This is a tentative schedule for the course and it is subject to without notice based on the pace of the class. The lecture notes will be updated as the course progresses. Updates to class schedule will be communicated in class and via this page.
+
 
 | **Wk#** | **Date** | **Topic** | **Lecture Notes** |
 |:---:|:---:|:---:|:---:|
@@ -10,7 +12,7 @@ All lecture slides are password protected. Visit D2L Brightspace to get the pass
 | 2 | Jan. 13 | Git/Github | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiRzJBVWN3Rnk5VTVqTWNsODNwZVRWSHlmNWJFR1pzbkpTRFdWcXdOa3JOSkJDTE9MTkdMbURqdDBrN1RFNGtDczZqK2JXWVB4Sjk4NlRIOWU2alg1QVlRQTJHS2tVbU01NHRkUkE0TzNOMjVxb3dOcUsvV2h6M0VLZEFPSm5YRHl3aCtGb0U4NGpwRGdyak9RS1NKYTdlT21NdGc9IiwicyI6InBwNzJTVmdSbGZXM1BWeWUrYi85U0E9PSIsImkiOiJNQjVmSkVuV3dncmhFRmxKIn0=) |
 | 3 | Jan. 20 | SDLC | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiRWxJdVFiWEtYRk9wTi80Rld1a3dQeUJJL01YM3ZaWU5kdWVhSDZ1dGVGbzQxN05MNzBMZitEL0pSRkVmZnIwQ0F0WG5YbHN0WXdDaGFqVDRDK2NPS2ZOQUhGTURRblFzQ29zM29ZcWUydDBReVA1alNEU29YMUVzK1hKM2cvSVMvTGx3djZxQ2hpQ3RjWmN1dTRZeHU1bVAwdXM9IiwicyI6IlkxcnJEN1dOcHVjdUhDYUNGNE5VYWc9PSIsImkiOiJuaXo1TnhLc1hzREYrRytSIn0=) |
 | 4 | Jan. 27 | Project Management | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiSWltN0ZNcnFqbWVGWVFnN2E4RlVuQXRtdW0xbDk3bUpQZFNqakdlWTQ4bjNab2VGRzFwY25LOU84ODA4SjVsVWpCYUY2OERiZVQrZ2FQazFxaVhWam5sNGxYZERWUHBUWitzQ0RwYk9FSmpML0xUTndjNkJ6NHR3NkNyYXB1VHdpeVBDMW5PcGFJandYa0hNaVhCMUFiZmFncm89IiwicyI6ImhjS0RQSFpzdTBwWmM3MjU3dlRTMFE9PSIsImkiOiJiSElMRW1FWldrNFAwSFRFIn0=) |
-| 5 | Feb. 3 | Application Design | Slides |
+| 5 | Feb. 3 | Application Design | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiTDFzSmphdGwwQVEzTWptYXJQM0M5QzBuZHAyUGdYbklXYmRJSWVqZmwzNGx5TGRpeFhpZCsxaG5pM0ZkdWE2allLSk9mSGJTVzhaRGwyN1ZRcFgvdnczSXNGQlFnaVhNeXpQZlZDYVdXM005RWpaUTlTQTRQVmJSVkg1WldhWXQ4QVMzdmJMZmFxZC9IR3FPeVZ5ZE1yZDN3dHM9IiwicyI6Ijh5Mkw4MUFoV2hFa1dpZkNFb1k0R3c9PSIsImkiOiJPVVNuSTNXZTd3YW9LTk9RIn0=) |
 | 6 | Feb. 10 | Application Architecture | Slides |
 | 7 | Feb. 17 | Midterm | - |
 | _8_ | _Feb. 24_ | _Reading Break_ | - |
