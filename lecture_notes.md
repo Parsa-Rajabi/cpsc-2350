@@ -16,7 +16,7 @@ All lecture slides are password protected. Visit D2L Brightspace to get the pass
 | _8_ | _Feb. 24_ | _Reading Break_ | - |
 | 9 | Mar. 3 | Intro to CI/CD | Slides |
 | 10 | Mar. 10 | Code Testing + Documentation | Slides |
-| 11 | Mar. 17 | Quiz #2 (tentative) | - |
+| 11 | Mar. 17 |  | - |
 | 12 | Mar. 24 |  |  |
-| 13 | Mar. 30 |  |  |
+| 13 | Mar. 30 | Quiz (tentative)  |  |
 | 14 | Apr. 6 | Project Presentations |  |
