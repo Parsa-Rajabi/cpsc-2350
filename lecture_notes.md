@@ -15,10 +15,10 @@ This is a tentative schedule for the course and it is subject to without notice 
 | 5 | Feb. 3 | Application Design | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiTDFzSmphdGwwQVEzTWptYXJQM0M5QzBuZHAyUGdYbklXYmRJSWVqZmwzNGx5TGRpeFhpZCsxaG5pM0ZkdWE2allLSk9mSGJTVzhaRGwyN1ZRcFgvdnczSXNGQlFnaVhNeXpQZlZDYVdXM005RWpaUTlTQTRQVmJSVkg1WldhWXQ4QVMzdmJMZmFxZC9IR3FPeVZ5ZE1yZDN3dHM9IiwicyI6Ijh5Mkw4MUFoV2hFa1dpZkNFb1k0R3c9PSIsImkiOiJPVVNuSTNXZTd3YW9LTk9RIn0=) |
 | 6 | Feb. 10 | Application Architecture | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiLzRxSmRTc2hDeG9mYW1LR041bUVxL2JQWDQwQ2RRdW1QSDhybnRNcHRiS1JWS3VjVjY1SXhPVUJtZy90UHVvYVBwampvcUxoeTdKcFVsSS93TENmelJrM1VMMFYrL3FiZ0pkcnh3U2NTWlZtVm1IVXNncUpEbzBmZmVHT0FBNmxqODFZNjAzQTJsakxrZTRkeDhibU1LRDlYT3c9IiwicyI6Ilc2ZDZqVDlLc1pZb0ltQXVqb0ZNanc9PSIsImkiOiJFcHJWc1N4T0QzQ2k4c2RzIn0=) |
 | 7 | Feb. 17 | Midterm | - |
-| _8_ | _Feb. 24_ | _Reading Break_ | - |
-| 9 | Mar. 3 | Intro to CI/CD | Slides |
-| 10 | Mar. 10 | Code Testing + Documentation | Slides |
-| 11 | Mar. 17 |  | - |
-| 12 | Mar. 24 |  |  |
-| 13 | Mar. 30 | Quiz (tentative)  |  |
+| _8_ | _Feb. 24_ | _No Lecture - Reading Break_ | - |
+| 9 | Mar. 2 | Intro to CI/CD | Slides |
+| 10 | Mar. 9 | Code Testing + Documentation | Slides |
+| 11 | Mar. 16 | Quiz | - |
+| _12_ | _Mar. 23_ | _No Lecture - Conference_  | - |
+| _13_ | Mar. 30_ |  _No Lecture - Easte (College closed)_  | - |
 | 14 | Apr. 6 | Project Presentations |  |
