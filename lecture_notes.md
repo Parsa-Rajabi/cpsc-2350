@@ -20,5 +20,5 @@ This is a tentative schedule for the course and it is subject to without notice 
 | 10 | Mar. 9 | Code Testing + Documentation | Slides |
 | 11 | Mar. 16 | Quiz | - |
 | _12_ | _Mar. 23_ | _No Lecture - Conference_  | - |
-| _13_ | Mar. 30_ |  _No Lecture - Easter (College closed)_  | - |
+| _13_ | _Mar. 30_ |  _No Lecture - Easter (College closed)_  | - |
 | 14 | Apr. 6 | Project Presentations |  |
