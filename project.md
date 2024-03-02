@@ -6,6 +6,17 @@ The primary objective of this project is to develop a web application that offer
 
 This project, worth 30% of your course grade, tasks groups of 4 with creating a web application that integrates two APIs, leading to a total of six unique features. Dive deep into the Software Development Life Cycle (SDLC), choosing the right model for your group, and experience firsthand the ins and outs of real-world software development.
 
+## Schedule
+
+|              Project Element               | Due Date (11:59pm) |
+| :----------------------------------------: | :----------------: |
+| [Project Report and Video Presentation #1](#report-and-presentation-1) |       Feb 20       |
+|              [Project Check-in](#Check-in)              |       Mar 16       |
+|           [Presentation #2 Slides]           | Apr 5 (tentative)  |
+|          In-class Presentation #2          | Apr 6 (tentative)  |
+|             Project Report #2              | Apr 7 (tentative)  |
+
+
 ## About
 
 - Plan, develop and deliver an application that has 2 different APIs integrated with a minimum of 3 features per each API (6 features total). 
@@ -117,15 +128,6 @@ Each milestone will include the following:
 
 Between the milestones, each team will be required to do a check-in with the instructor to ensure the project is on track.
 
-### Schedule
-
-|             Project Element              | Due Date (11:59pm) |
-| :--------------------------------------: | :----------------: |
-| Project Report and Video Presentation #1 |       Feb 20       |
-|             Project Check-in             |       Mar 16 (tentative)       |
-|          Presentation #2 Slides          |       Apr 5 (tentative)        |
-|         In-class Presentation #2         |       Apr 6 (tentative)        |
-|            Project Report #2             |       Apr 7 (tentative)        |
 
 ### Group Project Expectations
 
@@ -295,62 +297,82 @@ As part of this milestone, your group will present a 5 minute video presentation
 
 Tip: This presentation is directed towards your peers in the classroom who have no prior knowledge or experince with your project.
 
+## Check-in
+
+During this check-in, your group will have the opportunity to meet with the instructor and receive feedback on all the elements completed thus far. Although there are no marks associated with this check-in, your group is expected to a progress document ready, with the following elements highlighted:
+
+- The group's progress on the project thus far
+  - Overview of CI/CD infrastructure
+  - Overview of the project's application interface (UI)
+  - Overview of the project's API implementation
+  - Overview of the project's code tests
+- The group's plan for the next half of the project
+- Any challenges or roadblocks the group has encountered (and how they plan to overcome them )
+- Any questions or concerns the group has
+
+Your progress document should be a maximum of 2 pages and should be submitted by 11:59pm PST the day before the check-in. The document should include screenshots, code snippets, and any other relevant information that will help the instructor understand the group's progress. Groups are encourged to make use of figures, diagrams and tables to help illustrate their progress which must be supported by a brief explanation (bullet points are acceptable).
+
+Each group will have 5 minutes to present their progress and 5 minutes for Q/A. 
+
+Although every group will have a different level of progress, the following is a an ideal level of progress for this check-in:
+
+- CI/CD infrastructure fully implemented (test, build and deploy)
+- 1 API fully implemented with 2-3 features 
+- Progress on application interface (UI), based on wireframes and prototype elements while adhering to Nielson's 10 usability heuristics
+- at least 2 unit + 2 integration code tests implemented
+
+Details on check-in times will be shared in class. 
+
+**`All group members are expected to attend this check-in, failure to do so will result in a -25% deduction from the project grade for each member who does not attend. This penalty will only be applied to the team member that does not attend the meeting. Group members that arrive late will also be penalized with a -10% deduction from their project grade.`**
+
 ## Milestone 2 - Project Execution
 
 During the last half of this course, you and your group will shift to executing the project and developing the application planned in the previous milestone.
 
-### Check-in
-
-During this check-in, your group will have the opportunity to meet with the instructor and receive feedback on all the elements completed thus far. Although there are no marks associated with this check-in, your group is expected to have the following elements completed and ready to discuss:
-
-TBA 
-<!-- - CI/CD infrastructure fully implemented
-- 1 API fully implemented with 2-3 features 
-- Progress on application interface (UI)
-- at least 1 unit + 1 integration code tests  -->
-
-More details on how to book a check-in will be shared later.
-
-**`All group members are expected to attend this check-in, failure to do so will result in a -10% deduction from the project grade for each member who does not attend. This penalty will only be applied to the team member that does not attend the meeting.`**
-
 ### Report and Presentation #2 
 
-Details TBA
-
-<!-- #### Report (70 marks)
+#### Report (70 marks)
 This document will serve as the final project report:
 
-- `[2 marks]` Overview of the project  
-- `[7 marks]` Overview of which SDLC model was used in the project and what worked/didn't work 
-- `[3 marks]` High-level list of implemented features 
-- `[18 marks]` 3 application features per each API - 6 features in total (in detail with screenshots) (3 marks per feature)
-- `[10 marks]` Description of the tests associated with the code (unit and integration tests)
-- `[10 marks]` Description of the project's CI/CD infrastructure (test, build and deploy)
-- `[5 marks]` 1 high-level data flow diagram
-- `[10 marks]` Lessons learnt / project takeaway, project challenges, how the work was divided up and who has completed what element (including the actual report and presentation components)
-- `[5 marks]` Spelling, grammar, report structure (table of contents), cover page with links to github repository, report cleanness
+- `[2 marks]` Overview of the project and what was accomplished
+- `[7 marks]` Overview of which SDLC model was used in the project and what worked/didn't work. Include any changes made to the project plan and why
+- `[3 marks]` High-level bullet point list of implemented features and their user stories
+- `[18 marks (3/feature)]` 3 application features per each API - 6 features in total (in detail with screenshots) 
+- `[10 marks]` Description of the tests associated with the code (unit and integration tests) and what components of the application they are testing
+- `[10 marks]` Description of the project's CI/CD infrastructure (test, build and deploy) and how it was set up and maintained (inclde screenshots)
+- `[5 marks]` 1 high-level data flow diagram (level 0)
+- `[10 marks]` Lessons learnt / project takeaway, project challenges, how the work was divided up and who has completed what element (including the authoring the report and preparing for the presentation components)
+- `[5 marks]` Spelling, grammar, report structure (table of contents), cover page with links to github repository (must be clicable), report cleanness and ease of understanding
 
 #### Presentation (30 marks)
 
-This 10 minute presentation (8 minutes presentation, 2 minutes Q/A) will be done in-class as an opportunity for other students in the class to become familiar with your project. This presentation should include:
+This 10 minute presentation (8 minutes presentation, 2 minutes Q/A) will be done in-class as an opportunity to showcase your project to the class. Your presentation should include the following:
 
 - `[2 marks]` Overview of the project
 - `[3 marks]` Discuss which APIs you picked and why
 - `[5 marks]` Application features (high-level overview)
-- `[5 marks]` Overview of CI/CD infrastructure
-- `[5 marks]` Project takeaways and challenges
-- `[5 marks]` Project demo video (1-2 minutes)
-- `[5 marks]` All members of the group speak, presentation quality (spelling/grammar/professionalism/smoothness), ability to answer question and ease of understanding
-- `[-3 marks]` Penalty for going over the allocated 8 minute presenation time limit
+- `[5 marks]` Overview of CI/CD infrastructure (test, build and deploy stages)
+- `[5 marks]` Project takeaways and challenges (lessons learnt)
+- `[5 marks]` Project demo video (1-2 minutes) 
+- `[5 marks]` All members of the group speak, presentation quality (spelling/grammar/professionalism/smoothness), ability to answer question and ease of understanding 
+- `[-5 marks]` Penalty for going over the allocated 8 minute presenation time limit
 
 #### Application Evaluation (100 marks)
 
 The application developed as part of this project will be evaluated as the following:
 
-- `[48 marks]` Implement 6 features based on 2 APIs (3 features per each API) (8 marks each)
+- `[30 marks (5 each feature)]` Functionality of the 6 features based on 2 APIs (3 features per each API)
+- `[20 marks (deductions/each failed heuristic case)]` Adherence to [Nielson's 10 usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) for the application interface
+- `[12 marks (1 each)]` Write 12 unit tests - 4 per each feature
+- `[12 marks (1 each)]` Write 12 integration tests - 2 per each feature
+- `[9 marks (3 each stage)]` Set up project with CI/CD infrastructure with test, build and deploy stages
+- `[10 marks]` Deploy application to a public URL
+- `[7 marks]` An organized README file with context on the project, development environment setup, instructions on how to run the application locally and how to run the tests. The README should also include a link to the public URL, project demo, reports, presentations and any other relevant information. Documentation should be clear and easy to understand. 
+
+
+<!-- - `[48 marks]` Implement 6 features based on 2 APIs (3 features per each API) (8 marks each)
 - `[12 marks]` Develop application interface including basic styling and framework 
 - `[8 marks]` Write 8 unit tests (1 mark each)
 - `[12 marks]` Write 1 integration test per each feature - 6 total (2 marks each)
 - `[20 marks]` Set up project with CI/CD infrastructure (including hosting - accessible via public URL).  
-  - Test, build and deploy stages
-- `[10 marks]` Spelling, grammar, report structure (table of contents), cover page with links to github repository, report cleanness -->
+  - Test, build and deploy stages -->

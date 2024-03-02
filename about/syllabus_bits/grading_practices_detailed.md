@@ -7,7 +7,7 @@ The grading scheme for this course is:
 |  Assignments  |  10%   |
 |    Quizzes    |  20%   |
 |    Midterm    |  25%   |
-|  Final Exam   |  30%   |
+| Final Project |  30%   |
 
 <!-- ```{attention} 
 All deadlines in this course have an automatic 48 hour grace period after the due dates listed above.
