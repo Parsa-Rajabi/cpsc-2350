@@ -1,6 +1,6 @@
 # Assignments & Labs
 
-We are using GitHub Classroom to deliver the assignment and labs for this course. You will first need to create a GitHub account, and then you can accept each Class Activity. Once the assignment/lab is ready, the link will become active, and you will be able to accept the lab in your [GitHub.com](https://github.com/) account.
+We are using GitHub Classroom to deliver the assignment and labs for this course. You will first need to create a GitHub account, and then you can accept each Class Activity. Once the assignment/lab is ready, the link will become active, and you will be able to accept the lab in your [GitHub.com](https://github.com/) account. As mentioned in class, the designated lab time will be used to meet with your group and work on the project. You're welcome to use the lab time to work on course assignments or labs, but it is not required.
 
 Once you click the link, a repository will automatically be created for you with instructions. You can then work on the assignments and labs, make commits, and push them to GitHub as often as you please. Once the deadline has passed, you will no longer be able to push any changes.
 
@@ -13,18 +13,19 @@ Once you click the link, a repository will automatically be created for you with
 |     A0     |  Jan 21  | [Accept A0 on Github](https://classroom.github.com/a/SllniK6S) |
 |     A1     |  Jan 21  | [Accept A1 on Github](https://classroom.github.com/a/Zsbs-MYL) |
 |     A2     |  Feb 11  | [Accept A2 on Github](https://classroom.github.com/a/Xn4WqJLp) |
-|     A3     |          |                                                                |
-
-
+|     A3     |  Mar 17  | [Accept A3 on Github](https://classroom.github.com/a/-T-eJvEy) |
+|     A4     |  Mar 31  |             To be released after A3 (tentatively)              |
 
 ## Labs
-
 
 | Labs  | Due Date |                              Link                              |
 | :---: | :------: | :------------------------------------------------------------: |
 | Lab 1 |  Jan 28  | [Accept L1 on Github](https://classroom.github.com/a/6iAylQkt) |
 | Lab 2 |  Feb 4   | [Accept L2 on Github](https://classroom.github.com/a/i3ww9s9W) |
 | Lab 3 |  Feb 16  | [Accept L3 on Github](https://classroom.github.com/a/ZNmdGr5r) |
+<!-- | Lab 4 |  Mar 10  | [Accept L4 on Github]() | -->
+<!-- | Lab 5 |  Mar 24  |                   To be released after lab 4                   | -->
+
 
 ## Submission
 
