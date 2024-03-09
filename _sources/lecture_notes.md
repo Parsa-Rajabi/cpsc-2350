@@ -17,8 +17,8 @@ This is a tentative schedule for the course and it is subject to without notice 
 | 7 | Feb. 17 | Midterm | - |
 | _8_ | _Feb. 24_ | _No Lecture - Reading Break_ | - |
 | 9 | Mar. 2 | Intro to CI/CD | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiQTFjcXB1d3paSUw3bjFCNGtySHM1T0w3dzgwcWRob1VRSkJ0dlpNLzRDL1ErUnpza25BMU1qb0tFVjlyZVhCR3E0QWZCLy9KOUsxejNJcFhSK2JmSlRsY0ZGRmRCMUkvMFoxKytyc005L0lqdlFiQWVLVk9zRGI4UzdCT1lHeEptWVhydmtZVmthYkthcFRjWHc2aUk1d20wdjA9IiwicyI6Im53SnVZMGNUZ2ZMckd4R1RqY2tadWc9PSIsImkiOiJwb0dHbXM4WWt0b2UwbU9DIn0=) |
-| 10 | Mar. 9 | Code Testing + Documentation | Slides |
+| 10 | Mar. 9 | Code Testing + Documentation | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiQjV6clRBYkVPNnEvOWg3VVIxQVRkYUZ4c1BHOUdCVjJDWHZETFkvS29ISTRmQTZWRGt6OEd1NXRON2M2UU9WaDhwaWhPaVB0eHhWbm43NGQ1dUpTK1hEN3IvTHJHUzZlOERzTStSaHYwbG5rWlUrTzJFSitPVDUvRlhEcGRlSks4bVM4ZzZOdmhabTJpbGJNd0tKMTB2bVBqYWs9IiwicyI6IkRhQitYMDRRR3JveVI0UFVLSUpOcGc9PSIsImkiOiJFTTd1WnR1QVEzK0xlS0hnIn0=) |
 | 11 | Mar. 16 | Quiz | - |
 | _12_ | _Mar. 23_ | _No Lecture - Conference_  | - |
-| _13_ | _Mar. 30_ |  _No Lecture - Easter (College closed)_  | - |
+| _13_ | _Mar. 30_ |  Guest Speaker / Office Hours (tentative)  | - |
 | 14 | Apr. 6 | Project Presentations |  |
