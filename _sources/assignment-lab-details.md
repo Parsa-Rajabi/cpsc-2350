@@ -14,7 +14,7 @@ Once you click the link, a repository will automatically be created for you with
 |     A1     |  Jan 21  | [Accept A1 on Github](https://classroom.github.com/a/Zsbs-MYL) |
 |     A2     |  Feb 11  | [Accept A2 on Github](https://classroom.github.com/a/Xn4WqJLp) |
 |     A3     |  Mar 17  | [Accept A3 on Github](https://classroom.github.com/a/-T-eJvEy) |
-|     A4     |          |                              TBA                               |
+|     A4     |  Apr 8   | [Accept A4 on Github](https://classroom.github.com/a/Sz5iNxUJ) |
 
 ## Labs
 
@@ -24,8 +24,7 @@ Once you click the link, a repository will automatically be created for you with
 | Lab 2 |  Feb 4   | [Accept L2 on Github](https://classroom.github.com/a/i3ww9s9W) |
 | Lab 3 |  Feb 16  | [Accept L3 on Github](https://classroom.github.com/a/ZNmdGr5r) |
 | Lab 4 |  Mar 10  | [Accept L4 on Github](https://classroom.github.com/a/36qsPI_6) |
-| Lab 5 |          |                              TBA                               |
-
+| Lab 5 |  Apr 5   | [Accept L5 on Github](https://classroom.github.com/a/51XHea6n) |
 
 ## Submission
 
