@@ -14,7 +14,7 @@ Once you click the link, a repository will automatically be created for you with
 |     A1     |  Jan 21  | [Accept A1 on Github](https://classroom.github.com/a/Zsbs-MYL) |
 |     A2     |  Feb 11  | [Accept A2 on Github](https://classroom.github.com/a/Xn4WqJLp) |
 |     A3     |  Mar 17  | [Accept A3 on Github](https://classroom.github.com/a/-T-eJvEy) |
-|     A4     |  Apr 8   | [Accept A4 on Github](https://classroom.github.com/a/Sz5iNxUJ) |
+|     A4     |  Apr 7   | [Accept A4 on Github](https://classroom.github.com/a/Sz5iNxUJ) |
 
 ## Labs
 
