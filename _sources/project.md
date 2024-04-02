@@ -363,7 +363,7 @@ The application developed as part of this project will be evaluated as the follo
 
 - `[30 marks (5 each feature)]` Functionality of the 6 features based on 2 APIs (3 features per each API)
 - `[20 marks (deductions/each failed heuristic case)]` Adherence to [Nielson's 10 usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) for the application interface
-- `[12 marks (1 each)]` Write 12 unit tests - 4 per each feature
+- `[12 marks (1 each)]` Write 12 unit tests - 2 per each feature
 - `[12 marks (1 each)]` Write 12 integration tests - 2 per each feature
 - `[9 marks (3 each stage)]` Set up project with CI/CD infrastructure with test, build and deploy stages
 - `[10 marks]` Deploy application to a public URL
