@@ -24,7 +24,7 @@ Once you click the link, a repository will automatically be created for you with
 | Lab 2 |  Feb 4   | [Accept L2 on Github](https://classroom.github.com/a/i3ww9s9W) |
 | Lab 3 |  Feb 16  | [Accept L3 on Github](https://classroom.github.com/a/ZNmdGr5r) |
 | Lab 4 |  Mar 10  | [Accept L4 on Github](https://classroom.github.com/a/36qsPI_6) |
-| Lab 5 |  Apr 5   | [Accept L5 on Github](https://classroom.github.com/a/51XHea6n) |
+| Lab 5 |  Apr 6   | [Accept L5 on Github](https://classroom.github.com/a/51XHea6n) |
 
 ## Submission
 

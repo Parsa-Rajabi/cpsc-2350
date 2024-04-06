@@ -8,13 +8,14 @@ This project, worth 30% of your course grade, tasks groups of 4 with creating a 
 
 ## Schedule
 
-|              Project Element               | Due Date (11:59pm) |
-| :----------------------------------------: | :----------------: |
+|                            Project Element                             | Due Date (11:59pm) |
+| :--------------------------------------------------------------------: | :----------------: |
 | [Project Report and Video Presentation #1](#report-and-presentation-1) |       Feb 20       |
-|              [Project Check-in](#Check-in)              |       Mar 16       |
-|           [Presentation #2 Slides]           | Apr 5 (tentative)  |
-|          In-class Presentation #2          | Apr 6 (tentative)  |
-|             Project Report #2              | Apr 7 (tentative)  |
+|                     [Project Check-in](#Check-in)                      |       Mar 16       |
+|                     [Presentation #2 Slides](#id2)                     |       Apr 5        |
+|                    [In-class Presentation #2](#id2)                    |       Apr 6        |
+|                       [Project Report #2](#id1)                        |       Apr 8        |
+|        [Project Evaluation](#application-evaluation-100-marks)         |       Apr 8        |
 
 
 ## About

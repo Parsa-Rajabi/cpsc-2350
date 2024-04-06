@@ -20,5 +20,5 @@ This is a tentative schedule for the course and it is subject to without notice 
 | 10 | Mar. 9 | Code Testing + Documentation | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiQjV6clRBYkVPNnEvOWg3VVIxQVRkYUZ4c1BHOUdCVjJDWHZETFkvS29ISTRmQTZWRGt6OEd1NXRON2M2UU9WaDhwaWhPaVB0eHhWbm43NGQ1dUpTK1hEN3IvTHJHUzZlOERzTStSaHYwbG5rWlUrTzJFSitPVDUvRlhEcGRlSks4bVM4ZzZOdmhabTJpbGJNd0tKMTB2bVBqYWs9IiwicyI6IkRhQitYMDRRR3JveVI0UFVLSUpOcGc9PSIsImkiOiJFTTd1WnR1QVEzK0xlS0hnIn0=) |
 | 11 | Mar. 16 | Quiz | - |
 | _12_ | _Mar. 23_ | _No Lecture - Conference_  | - |
-| _13_ | _Mar. 30_ |  Guest Speaker / Office Hours (tentative)  | - |
-| 14 | Apr. 6 | Project Presentations |  |
+| _13_ | _Mar. 30_ |  Office Hours  | - |
+| 14 | Apr. 6 | Project Presentations | [Slides](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWWhIMkx6T0d5ampWQjdwT0tZcWMxSWJNME1yRTVjMjlQanRMUXJWZFdBMCswUlkxbGJXdy9IVGU4d3lZRDdBRUtwWU90QUROQ0RrMklyYmFrZkpydm9qOWFJUlMxSVRmQWJ2VFFXcHdlZkVYdXVGeE5GcVJUeEx0WkxPbUVaa0Z4YlJRc204bTJUdDlQd2N1c0x2NTJ6b2E2aUE9IiwicyI6IjFwTm1tdWNRcllScnZMRDlqanZRR2c9PSIsImkiOiJqaXlWWEl4Sm5sTHV0MzdlIn0=) |
